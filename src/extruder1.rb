@@ -140,6 +140,8 @@ html = <<~HTML
   <input type="text" id="offsetText" value="8" size="4" /><br />
 
     <script>
+
+    //the values
        var values = [0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128 ,256 ,512, 1024];
 
        function updateTextInput(val) {
@@ -176,6 +178,8 @@ end
 
     #  file_loaded(__FILE__)
  #   end
+
+
 
   end
 end
